@@ -11,11 +11,8 @@
 ## Step 2 Implement the track management to initialize and delete tracks, set a track state and a track score.
 
 ### The results of student/trackmanagement.py are shown as follows. 
-<!-- <video src="img/step2.mp4" controls="controls" style="max-width: 730px;">
-</video> -->
-
-![Track Management](./img/step2.gif)
-
+<video src="img/step2.mp4" controls="controls" style="max-width: 730px;">
+</video>
 The mean RMSE is 0.78.
 <img src="img/step2_figure2.png"/>
 
@@ -23,17 +20,15 @@ The mean RMSE is 0.78.
 ## Step 3 Implement a single nearest neighbor data association to associate measurements to tracks. You will finally move on to multi target tracking now!
 
 ### The results of student/trackmanagement.py are shown as follows. 
-<!-- <video src="img/step3.mp4" controls="controls" style="max-width: 730px;">
-</video> -->
-![Multi target tracking](./img/step3.gif)
+<video src="img/step3.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
 <img src="img/step3_figure2.png"/>
 
 ## Step 4 Implement the nonlinear camera measurement model. You will finally complete the sensor fusion module for camera-lidar fusion!
 ### The final results are shown as follows. 
-<!-- <video src="img/step4.mp4" controls="controls" style="max-width: 730px;">
-</video> -->
-![Multi target tracking](./img/step4.gif)
+<video src="img/step4.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
 Two of the tracks (track 0 and track 1) are able to be tracked from beginning to end of the sequence (0s - 200s) without track loss. The mean RMSE for these two tracks are below 0.2. No confirmed ghost tracks or track losses occur.
 <img src="img/step4_figure2.png"/>
@@ -50,4 +45,4 @@ The first challenges for sensor fusion in real-life scenarios is data associatio
 # 4. Can you think of ways to improve your tracking results in the future?
 
 
-In this project, we use traditional algorithms with a lot of hand engineering, such as extended kalman filter. Deep learning approaches may be more powerful for pose estimation and scene understanding.
+In this project, we are using traditional algorithms with a lot of hand engineering, like extended kalman filter. I think deep learning approaches may be more powerful for pose estimation and scene understanding.
